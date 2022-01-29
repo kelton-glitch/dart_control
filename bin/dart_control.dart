@@ -44,19 +44,26 @@ void main() {
   print(dogEqualsCat);
 
   ///MINI EXERCISES
-  ///
+  
   ///Exercise 1
   const myAge = 21;
   const teenagers = myAge >= 13 && myAge <= 19;
   print(teenagers);
 
   ///Exercise 2
-  ///
+  
 
   const maryAge = 30;
   const bothTeenagers =  (myAge >= 13 && myAge <= 19) && (maryAge >= 13 && maryAge <= 19);
 
   print(bothTeenagers);
+
+
+  const myString = 'I ❤ Dart ';
+
+  for (var codePoint in myString.runes){
+    print(String.fromCharCode(codePoint));
+  }
     
   
 }
