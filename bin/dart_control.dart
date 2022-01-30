@@ -59,11 +59,11 @@ void main() {
   print(bothTeenagers);
 
 
-  const myString = 'I ❤ Dart ';
+  /* const myString = 'I ❤ Dart '; */
 
-  for (var codePoint in myString.runes){
-    print(String.fromCharCode(codePoint));
-  }
-    
+  /* for (var codePoint in myString.runes){ */
+  /*   print(String.fromCharCode(codePoint)); */
+  /* } */
+  /*    */
   
 }
