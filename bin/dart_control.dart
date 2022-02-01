@@ -1,5 +1,3 @@
-import 'dart:async';
-
 void main() {
   const doesOneEqualTwo = (1 == 2);
   print(doesOneEqualTwo);
