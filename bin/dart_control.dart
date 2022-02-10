@@ -56,14 +56,5 @@ void main() {
   const maryAge = 30;
   const bothTeenagers =  (myAge >= 13 && myAge <= 19) && (maryAge >= 13 && maryAge <= 19);
 
-  print(bothTeenagers);
-
-
-  const myString = 'I ❤ Dart '; 
-
-   for (var codePoint in myString.runes){ 
-     print(String.fromCharCode(codePoint)); 
-   } 
-  
-  
+  print(bothTeenagers);  
 }

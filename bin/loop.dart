@@ -20,4 +20,11 @@ void main() {
   for (i = 0; i < 10; i++) {
     print(i);
   }
+  
+///FOR/IN loops
+  const myString = 'I ❤ Dart '; 
+ for (var codePoint in myString.runes){ 
+   print(String.fromCharCode(codePoint)); 
+ } 
+  
 }
